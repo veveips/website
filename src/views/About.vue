@@ -88,7 +88,7 @@ export default {
     font-style: normal;
     color: #f0efef;
     font-size: 32px;
-    padding: 200px 0 30px;
+    padding: 170px 0 30px;
     margin: 0;
   }
   h3 {
