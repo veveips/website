@@ -533,6 +533,7 @@ export default {
 }
 
 .system-desc {
+  overflow: hidden;
   background: #fafbfd;
   padding: 100px 0 40px;
   .system-desc-box {
