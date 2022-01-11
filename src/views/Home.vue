@@ -306,7 +306,7 @@ export default {
     font-weight: 650;
     font-style: normal;
     font-size: 36px;
-    color: #1642db;
+    color: #ff9b1f;
   }
   h1 {
     font-weight: 400;

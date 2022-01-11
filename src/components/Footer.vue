@@ -36,15 +36,15 @@ export default {
   data() {
     return {
       address:
-        "成都轻淘众云网络科技有限公司四川省成都市高新区雅和北路博雅城市广场4层",
+        "广东省广州市黄埔区神舟路中央绿地广场A1栋2209",
       b1: [
         { name: "联系客服订购享超值优惠", path: "" },
-        { name: "联系我们", path: "About" },
+        { name: "联系我们：000000000", path: "About" },
       ],
       blx: [
-        "商务合作 wangwei@xiaochankeji.cn",
-        "企业专线 028-85113223",
-        "企业微信 dakatui",
+        "商务合作 000000@qq.cn",
+        "企业专线 028-00000000",
+        "企业微信 chengzixingxuaan",
       ],
       b2: [
         { name: "爆品推", path: "https://www.baopintui.com/" },
@@ -53,10 +53,10 @@ export default {
       ],
       b3: [
         {
-          name: "备案号：蜀ICP备2020033119号-8",
+          name: "备案号：蜀ICP备00000000000号-0",
           path: "https://beian.miit.gov.cn/",
         },
-        { name: "增值电信业务经营许可证： 川B2-20210802", path: "/" },
+        { name: "增值电信业务经营许可证： 0000-0000000000", path: "/" },
         { name: "营业执照", path: "/" },
       ],
     };

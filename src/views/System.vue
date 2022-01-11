@@ -98,7 +98,7 @@
             </div>
             <img
               class="img"
-              src="http://thumbnail.qingtaoke.com/img/bpt_zs_pic/202111/2021112510585668015265.png"
+              src="@/assets/images/2021112510585668015265.png"
               alt=""
             />
           </div>
@@ -112,21 +112,21 @@
         <thead style="color: #ffffff">
           <tr>
             <th
-              style="background-color: #403e41; text-align: center"
+              style="background-color: #00c699; text-align: center"
               width="16%"
               class="per-4"
             >
               功能介绍
             </th>
             <th
-              style="background-color: #403e41; text-align: center"
+              style="background-color: #00c699; text-align: center"
               width="14%"
               class="per-4"
             >
               功能列表
             </th>
             <th
-              style="background-color: #403e41; text-align: center"
+              style="background-color: #00c699; text-align: center"
               width="50%"
               class="per-4"
             >
@@ -134,7 +134,7 @@
             </th>
             <th
               width="10%"
-              style="background-color: #403e41; text-align: center"
+              style="background-color: #00c699; text-align: center"
             >
               功能状态
             </th>
@@ -149,7 +149,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -161,7 +161,7 @@
             <td>团队商品数据统计展示，清晰了解团队每日商品数据</td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -172,7 +172,7 @@
             <td>平台渠道商品推广数据统计展示，实时知晓团队每日商品推广数据</td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -185,7 +185,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -198,7 +198,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -212,7 +212,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -225,7 +225,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -238,7 +238,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -252,7 +252,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -265,7 +265,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -278,7 +278,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -292,7 +292,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -305,7 +305,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -318,7 +318,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -331,7 +331,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -344,7 +344,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -357,7 +357,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -372,7 +372,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -385,7 +385,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -400,7 +400,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -411,7 +411,7 @@
             <td>属于企业内部自己的知识库，主账号，子账号都可以添加招商知识</td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -426,7 +426,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -440,7 +440,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -453,7 +453,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -466,7 +466,7 @@
             <td>团队人数限制</td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -479,7 +479,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -492,7 +492,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -505,7 +505,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -518,7 +518,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -531,7 +531,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -545,7 +545,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -558,7 +558,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -571,7 +571,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -586,7 +586,7 @@
             </td>
             <td class="txt-center">
               <img
-                src="/images/v3-0/3-3/vip33.png?=20211109001"
+                src="@/assets//images/vip33.png"
                 style="display: inline-block"
                 alt=""
               />
@@ -825,7 +825,7 @@ export default {
   align-items: center;
   margin-top: 75px;
   height: 600px;
-  background: url("http://thumbnail.qingtaoke.com/img/bpt_zs_pic/202111/2021111016453554972287.png")
+  background: url("../assets/images/2021111016453554972287.png")
     no-repeat;
   background-size: contain;
   background-position: right center;

@@ -94,7 +94,7 @@ export default {
   background: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 100px;
-  z-index: 9;
+  z-index: 999;
   padding: 2px 10px;
   .icon {
     width: 20px;

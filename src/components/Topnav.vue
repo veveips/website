@@ -157,6 +157,7 @@ a {
     font-size: 14px;
   }
   .logo {
+    color: #ff9b1f;
     display: flex;
     align-items: center;
     h1 {
