@@ -27,7 +27,8 @@
         <div
           v-for="(item, index) in innovate[2].list"
           :key="index"
-          class="wow bounceInUp animated wrap"
+          class="wow animate__animated animate__slideInUp wrap"
+          :data-wow-duration="`${(index + 1) * 0.5}s`"
         >
           <div>
             <img :src="`${item.img}`" alt="" />
@@ -49,7 +50,10 @@
         <h3 class="line-title">{{ solution[0].title }}</h3>
         <div class="solution-list">
           <div
-            class="wrap"
+            class="wow animate__animated animate__slideInUp wrap"
+            :data-wow-duration="`${
+              (solution[1].list.length - index + 1) * 0.5
+            }s`"
             v-for="(item, index) in solution[1].list"
             :key="index"
           >
@@ -68,7 +72,7 @@
         <div class="advantage-box">
           <div class="tab-list">
             <div
-              :class="index == 0 ? 'active' : ''"
+              :class="index == tablistnum ? 'active' : ''"
               v-for="(item, index) in advantage[1].list"
               :key="index"
             >
@@ -82,7 +86,7 @@
           >
             <img
               :src="`${item.img}`"
-              :class="index == 0 ? 'active' : ''"
+              :class="index == tablistnum ? 'active' : ''"
               v-for="(item, index) in advantage[1].list"
               :key="index"
             />
@@ -128,8 +132,7 @@
 </template>
 
 <script>
-import { WOW } from "wowjs";
-
+// import { WOW } from "wowjs";
 import Banner from "@/components/Banner.vue";
 import Banner2 from "@/components/Banner2.vue";
 import Footer from "@/components/Footer.vue";
@@ -141,6 +144,7 @@ export default {
   },
   data() {
     return {
+      tablistnum: 0,
       description: {
         header: "橙子星选-抖音招商系统",
         title: "助力伙伴成长、共创未来新生态",
@@ -270,7 +274,24 @@ export default {
     };
   },
   mounted() {
-    new WOW().init();
+    // new WOW().init();
+    this.$nextTick(() => {
+      this.$wow.init();
+    });
+    let _this = this;
+    let tablist = document
+      .getElementsByClassName("tab-list")[0]
+      .getElementsByTagName("div");
+    for (let i = 0; i < tablist.length; i++) {
+      // console.log(tablist[i]);
+      tablist[i].addEventListener(
+        "mouseenter",
+        function () {
+          _this.tablistnum = i;
+        },
+        false
+      );
+    }
   },
 };
 </script>
@@ -469,6 +490,44 @@ export default {
     }
     img.active {
       opacity: 1;
+    }
+    .tab-list > div.active {
+      background: linear-gradient(270deg, #ffffff 3%, #a1e8d7 147%);
+      height: 187px;
+      border-radius: 40px 0 0 40px;
+    }
+    .tab-list > div.active p {
+      height: 104px;
+      opacity: 1;
+    }
+    .tab-list > div p {
+      margin-top: 12px;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 20px;
+      height: 0;
+      opacity: 0;
+    }
+    .tab-list > div h3 {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 22px;
+    }
+    .tab-list > div:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    .tab-list > div {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 45px;
+      width: 408px;
+      height: 109px;
+      background: linear-gradient(270deg, #ffffff -8%, #f2f6fe 108%);
+      border-radius: 100px 0 0 100px;
+      transition: all 0.3s linear;
+      overflow: hidden;
     }
   }
 }

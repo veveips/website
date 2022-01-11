@@ -13,8 +13,9 @@
         :class="index == activeItem ? 'active' : ''"
         v-for="(item, index) in list"
         :key="index"
+        @click="changed(index)"
       >
-        <a :href="`${item.page}`"> {{ item.name }}</a>
+        <a style="cursor: pointer"> {{ item.name }}</a>
       </div>
     </div>
     <div class="login">登录 / 注册</div>
@@ -30,22 +31,40 @@ export default {
       activeItem: null,
       logo: require("@/assets/images/logo.png"),
       list: [
-        { name: "首页", page: "/" },
-        { name: "产品", page: "/" },
-        { name: "产品优势", page: "/#advantage" },
-        { name: "关于我们", page: "/About" },
-        { name: "帮助中心", page: "/" },
+        { name: "首页", page: "Home" },
+        { name: "产品", page: "System" },
+        { name: "产品优势", page: "Home" },
+        { name: "关于我们", page: "About" },
+        { name: "帮助中心", page: "Help" },
       ],
     };
   },
   mounted() {
     let path = window.location.pathname;
-    // let hash = window.location.hash;
+    let hash = window.location.hash;
     if (path == "/") {
-      this.activeItem = 0;
-    } else if (path == "/About") {
+      if (hash == "#advantage") {
+        this.activeItem = 2;
+      } else {
+        this.activeItem = 0;
+      }
+    } else if (path == "/about") {
       this.activeItem = 3;
+    } else if (path == "/system") {
+      this.activeItem = 1;
+    } else if (path == "/help") {
+      this.activeItem = 4;
     }
+  },
+  methods: {
+    changed(index) {
+      this.activeItem = index;
+      if (index == 2) {
+        window.location.href = "/#advantage";
+      } else {
+        this.$router.push({ name: this.list[index].page });
+      }
+    },
   },
 };
 </script>

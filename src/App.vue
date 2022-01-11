@@ -34,4 +34,7 @@ export default {
 body {
   min-width: 1200px;
 }
+a {
+  text-decoration: none;
+}
 </style>

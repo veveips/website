@@ -20,6 +20,24 @@ const routes = [{
     },
     component: () => import('../views/About.vue')
 
+  },
+  {
+    path: '/system',
+    name: 'System',
+    meta: {
+      title: "招商系统"
+    },
+    component: () => import('../views/System.vue')
+
+  },
+  {
+    path: '/help',
+    name: 'Help',
+    meta: {
+      title: "帮助中心"
+    },
+    component: () => import('../views/Help.vue')
+
   }
 ]
 
